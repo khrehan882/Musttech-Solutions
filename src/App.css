@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../public/font/Agrandir-Regular.otf') format('otf');
+  /* Add more src definitions for other formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(-82%);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-slide-left {
+  animation: slide-left 20s linear infinite;
+}
+
+.animate-slide-right {
+  animation: slide-right 20s linear infinite;
+}
+

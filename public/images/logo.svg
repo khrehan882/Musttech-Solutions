@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 906.2 194.65">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Helvetica, Helvetica;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 127.16px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #ec2027;
+      }
+
+      .cls-3 {
+        font-family: EthosNova-Light, 'Ethos Nova';
+        font-size: 48.75px;
+        font-weight: 300;
+        letter-spacing: .69em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-2" x="0" y="18.13" width="51.75" height="165.38"/>
+        <rect class="cls-2" x="128.36" y="18.13" width="51.75" height="165.38"/>
+        <rect class="cls-7" x="64.18" y="18.13" width="51.75" height="78.9"/>
+        <rect class="cls-7" x="215.02" y="84.17" width="51.75" height="99.34"/>
+        <rect class="cls-2" x="215.02" y="-5.19" width="51.75" height="98.39" transform="translate(284.9 -196.89) rotate(90)"/>
+      </g>
+      <g>
+        <text class="cls-4" transform="translate(343.23 109.34)"><tspan class="cls-1" x="0" y="0">Must</tspan><tspan class="cls-5" x="275.56" y="0">T</tspan><tspan class="cls-6" x="343.86" y="0">ech</tspan></text>
+        <text class="cls-3" transform="translate(346.79 183.08)"><tspan x="0" y="0">SOLUTIONS</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
