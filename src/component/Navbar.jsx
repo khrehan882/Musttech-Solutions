@@ -41,7 +41,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-[#0F0F0F]/40 backdrop-blur-[18px] px-6 md:px-16 h-[100px] flex items-center justify-between">
       {/* Logo */}
       <Link to="/" className="flex items-center text-2xl font-bold">
-        <img src="/images/logo.png" alt="Company Logo" width={235} height={52} />
+        <img src="/images/logo.svg" alt="Company Logo" width={235} height={52} />
       </Link>
 
       {/* Desktop Navigation */}
@@ -81,6 +81,7 @@ export default function Navbar() {
         <Link to="/careers" className="text-white hover:text-gray-300">Careers</Link>
         <Link to="/portfolio" className="text-white hover:text-gray-300">Portfolio</Link>
         <Link to="/about" className="text-white hover:text-gray-300">About us</Link>
+         <Link to="/pricing" className="text-white hover:text-gray-300">Pricing</Link>
         <Link to="/contact" className="rounded-full border border-red-500 ml-1.5 px-6 py-2.5 text-sm text-red-500 transition-colors hover:bg-red-500 hover:text-white">
           CONTACT
         </Link>
@@ -156,6 +157,9 @@ export default function Navbar() {
           <Link to="/contact" className="rounded-full border flex justify-center border-red-500 px-6 py-2.5 text-sm text-red-500 transition-colors hover:bg-red-500 hover:text-white">
             CONTACT
           </Link>
+
+          <Link to="/pricing" className="text-white hover:text-gray-300">Pricing</Link>
+
         </div>
       )}
     </nav>

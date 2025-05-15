@@ -12,6 +12,7 @@ import Testimonials from "./component/landing/Testimonials"; // ✅ Add this imp
 import Services from "./page/services/Services";
 import { ToastContainer } from "react-toastify";
 import ScrollToTop from "./utils/ScrollToTop";
+import Pricing from "./page/pricing/Pricing";
 import Whatsapp from "./component/Whatsapp";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services/:slug" element={<Services />} />
         <Route path="/testimonials" element={<Testimonials />} /> {/* ✅ Add this route */}
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
       <Footer />
 
