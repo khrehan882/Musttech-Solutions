@@ -2,7 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Whatsapp = () => {
-  const phoneNumber = "+15125879403"; // Apna WhatsApp number yahan daalo (country code ke sath)
+  const phoneNumber = "+923489229883"; // Apna WhatsApp number yahan daalo (country code ke sath)
   
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");

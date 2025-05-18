@@ -20,6 +20,27 @@ export default function Pricing() {
     From essential services to full-scale digital strategies, explore our packages and discover how we can empower your business.`,
     };
 
+    const Card = ({ title, price, features }) => (
+        <div className="bg-red-600 text-white w-full max-w-xs p-10 rounded-2xl shadow-2xl text-center flex flex-col justify-between transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg mx-auto">
+            <div>
+                <h3 className="text-3xl font-bold mb-4">{title}</h3>
+                <p className="text-xl font-semibold mb-6">{price}</p>
+                <ul className="text-base space-y-2 text-left">
+                    {features.map((feature, i) => (
+                        <li
+                            key={i}
+                            className="relative pl-6 before:absolute before:left-0 before:top-1 before:text-white before:content-['✓']"
+                        >
+                            {feature}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    );
+
+
+
     return (
         <div>
             <HeroSection data={data} />
@@ -30,49 +51,191 @@ export default function Pricing() {
                     {/* Pricing Description (unchanged) */}
                     <Content data={content} />
 
-                    {/* Centered Pricing Cards */}
-                    <div className="flex items-center justify-center min-h-[60vh]"> {/* Only this part is centered */}
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl">
-                            {/* Starter Card */}
-                            <div className="bg-white text-black w-full max-w-xs h-[420px] p-10 rounded-2xl shadow-2xl text-center flex flex-col justify-between transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg mx-auto">
-                                <div>
-                                    <h3 className="text-3xl font-bold mb-4">Starter</h3>
-                                    <p className="text-xl font-semibold mb-6">$99/month</p>
-                                    <ul className="list-disc list-inside text-base space-y-2 text-left">
-                                        <li>Basic Website</li>
-                                        <li>SEO Setup</li>
-                                        <li>1 Month Support</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            {/* Professional Card */}
-                            <div className="bg-white text-black w-full max-w-xs h-[420px] p-10 rounded-2xl shadow-2xl text-center flex flex-col justify-between transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg mx-auto">
-                                <div>
-                                    <h3 className="text-3xl font-bold mb-4">Professional</h3>
-                                    <p className="text-xl font-semibold mb-6">$199/month</p>
-                                    <ul className="list-disc list-inside text-base space-y-2 text-left">
-                                        <li>Custom Website</li>
-                                        <li>SEO + SMM</li>
-                                        <li>3 Months Support</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            {/* Enterprise Card */}
-                            <div className="bg-white text-black w-full max-w-xs h-[420px] p-10 rounded-2xl shadow-2xl text-center flex flex-col justify-between transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg mx-auto">
-                                <div>
-                                    <h3 className="text-3xl font-bold mb-4">Enterprise</h3>
-                                    <p className="text-xl font-semibold mb-6">$499/month</p>
-                                    <ul className="list-disc list-inside text-base space-y-2 text-left">
-                                        <li>Complete Digital Strategy</li>
-                                        <li>Dedicated Team</li>
-                                        <li>1 Year Support</li>
-                                    </ul>
-                                </div>
-                            </div>
+                    {/* Website Pricing Heading */}
+                    <h2 className="text-white text-3xl font-bold text-center mb-8">Website Pricing</h2>
+                    <div className="mb-20">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl items-start">
+                            {/* Basic Website */}
+                            <Card
+                                title="Basic"
+                                price="$300/month"
+                                features={[
+                                    "4 Pages Website",
+                                    "E-commerce Capabilities",
+                                    "Essential Features",
+                                    "Basic Content",
+                                    "Standard Template",
+                                    "Responsive Design"
+                                ]}
+                            />
+                            {/* Premium Website */}
+                            <Card
+                                title="Premium"
+                                price="$200/month"
+                                features={[
+                                    "6 Pages Website",
+                                    "E-commerce Capabilities",
+                                    "Advanced Features",
+                                    "High-Quality Multimedia",
+                                    "Premium Template",
+                                    "Improved Security",
+                                    "Responsive Design",
+                                    "Enhanced Customization",
+                                    "WhatsApp Integration"
+                                ]}
+                            />
+                            {/* Enterprise Website */}
+                            <Card
+                                title="Enterprise"
+                                price="$500/month"
+                                features={[
+                                    "12 Pages Website",
+                                    "E-commerce Capabilities",
+                                    "Interactive Features",
+                                    "High Quality Multimedia",
+                                    "Premium Custom Design",
+                                    "Advanced Security",
+                                    "Responsive Design",
+                                    "Advance Features",
+                                    "Expanded Pages and Sections",
+                                    "Enhanced Customization",
+                                    "Personalized User Experience",
+                                    "WhatsApp Integration"
+                                ]}
+                            />
                         </div>
                     </div>
+
+
+                    {/* SEO Pricing Heading */}
+                    <h2 className="text-white text-3xl font-bold text-center mb-8">SEO Pricing</h2>
+                    <div className="mb-20">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl items-start">
+                            {/* Basic SEO */}
+                            <Card
+                                title="Basic"
+                                price="$100/month"
+                                features={[
+                                    "3 Keywords Target",
+                                    "Keyword Researching",
+                                    "Keywords Data Base",
+                                    "Content Writing for 3 Landing Page",
+                                    "Optimized 3 Pages Meta Tags",
+                                    "Enhance UI/UX design",
+                                    "Technical Optimization",
+                                    "Adding Schema Coding",
+                                    "Analysis Tools Setup",
+                                    "Google Crawling Optimization",
+                                    "Weekly Updates",
+                                    "50 Mix Backlinks /month",
+                                    "3 Blog Writing /month"
+                                ]}
+                            />
+
+                            {/* Premium SEO */}
+                            <Card
+                                title="Premium"
+                                price="$150/month"
+                                features={[
+                                    "5 Keywords Target",
+                                    "Keyword Researching",
+                                    "Keywords Data Base",
+                                    "Content Writing for 5 Landing Page",
+                                    "Optimized 5 Pages Meta Tags",
+                                    "Enhance UI/UX design",
+                                    "Technical Optimization",
+                                    "Adding Schema Coding",
+                                    "Analysis Tools Setup",
+                                    "Google Crawling Optimization",
+                                    "Weekly Updates",
+                                    "80 Mix Backlinks /month",
+                                    "6 Blog Writing /month"
+                                ]}
+                            />
+
+                            {/* Enterprise SEO */}
+                            <Card
+                                title="Enterprise"
+                                price="$200/month"
+                                features={[
+                                    "Keywords Target For Overall Web Pages",
+                                    "Keyword Researching",
+                                    "Keywords Data Base",
+                                    "Content Writing for All Landing Page",
+                                    "Optimized Overall Site Meta Tags",
+                                    "Enhance UI/UX design",
+                                    "Technical Optimization",
+                                    "Adding Schema Coding To All Web Page",
+                                    "Analysis Tools Setup",
+                                    "Google Crawling and also Indexing Optimization",
+                                    "Weekly Updates",
+                                    "150 Mix Backlinks /month",
+                                    "10 Blog Writing /month"
+                                ]}
+                            />
+                        </div>
+                    </div>
+
+
+                    {/* Digital Marketing Pricing Heading */}
+                    <h2 className="text-white text-3xl font-bold text-center mb-8">Digital Marketing Pricing</h2>
+                    <div className="mb-20">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl items-start">
+                            {/* Starter Marketing */}
+                            <Card
+                                title="Basic"
+                                price="$100/month"
+                                features={[
+                                    "Optimized Basic Social Media Profiles",
+                                    "Posting 5 Days A Week",
+                                    "Basic Engagement",
+                                    "Regular Posting",
+                                    "Graphical + Animated + Video Post Creation",
+                                    "Basic Reporting"
+                                ]}
+                            />
+
+                            {/* Growth Marketing */}
+                            <Card
+                                title="Premium"
+                                price="$180/month"
+                                features={[
+                                    "Advanced Optimization of Multiple Social Media Profiles",
+                                    "Posting 5 Days A Week",
+                                    "Moderate Engagement",
+                                    "Regular Posting",
+                                    "Graphical + Animated + Video Post Creation",
+                                    "Detailed Reporting",
+                                    "15 Blogs Per Month",
+                                    "On-page, Off-page and Technical SEO",
+                                    "Comprehensive Paid Advertising"
+                                ]}
+                            />
+
+                            {/* Pro Marketing */}
+                            <Card
+                                title="Enterprise"
+                                price="$250/month"
+                                features={[
+                                    "Advanced Optimization",
+                                    "Daily Posting (60 Posts Per Month)",
+                                    "Active Engagement",
+                                    "Regular Posting",
+                                    "Graphical + Animated + Video Post Creation",
+                                    "Advance Reporting",
+                                    "30 Blogs Per Month",
+                                    "On-page, Off-page and Technical SEO",
+                                    "Diverse Content Creation",
+                                    "Assigned Account Manager",
+                                    "Daily Website Maintenance",
+                                    "Technical Assistance",
+                                    "Comprehensive Paid Advertising"
+                                ]}
+                            />
+                        </div>
+                    </div>
+
+
 
                     {/* GO TO HOME Button (unchanged) */}
                     <Link

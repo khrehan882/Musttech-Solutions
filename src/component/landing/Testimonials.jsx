@@ -57,7 +57,7 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-6">
         {/* Header */}
         <div className="mb-12 flex items-center justify-between">
-          <h2 className="self-center md:self-end text-xs md:text-base font-bold text-white md:text-base">
+          <h2 className="self-center md:self-end text-xs font-bold text-white md:text-base">
             {"Hear what our customers say :)"}
           </h2>
           <div className="flex gap-2 md:gap-4">

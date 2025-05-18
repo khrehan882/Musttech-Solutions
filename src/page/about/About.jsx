@@ -6,7 +6,7 @@ import ReasonSection from "../../component/ReasonSection";
 export default function About() {
   const data = {
     page: "About us",
-    title: "MustTech",
+    title: "Deepsol",
     description: `We're the storytellers of the digital age, weaving strategies that 
 bring your brand to life and make it resonate with the world. With 
 every pixel, every word, and every campaign, we guide your 

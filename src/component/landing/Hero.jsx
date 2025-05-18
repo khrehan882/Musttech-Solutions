@@ -244,7 +244,7 @@ export default function Hero() {
           </h1>
 
           <p className="mb-8 text-xs sm:text-sm  lg:text-base text-white/100">
-            At MustTech Solutions, we craft the future—innovating today to
+            At Deepsol Technologies, we craft the future—innovating today to
             empower your tomorrow.
           </p>
 

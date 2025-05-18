@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import React from "react";
 import "./App.css";
 import Contact from "./page/contact/Contact";
-import Careers from "./page/careers/Careers";
+// import Careers from "./page/careers/Careers";
 import About from "./page/about/About";
 import Home from "./page/home/Home";
 import Portfolio from "./page/portfolio/Portfolio";
@@ -24,12 +24,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/careers" element={<Careers />} />
+        {/* <Route path="/careers" element={<Careers />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/services/:slug" element={<Services />} />
         <Route path="/testimonials" element={<Testimonials />} /> {/* ✅ Add this route */}
-        <Route path="/pricing" element={<Pricing />} />
       </Routes>
       <Footer />
 

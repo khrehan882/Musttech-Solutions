@@ -117,7 +117,7 @@ export default function Contact() {
                     </svg> */}
 
                     {/* <span>+92 302-6666400</span> */}
-                    <span>+1 512 587-9403</span>
+                    <span>+92 348 9229883</span>
                   </div>
 
                   <div className="flex gap-4 mb-16">
@@ -133,7 +133,7 @@ export default function Contact() {
                         fill="white"
                       />
                     </svg>
-                    <span>admin@musttechsolutions.com</span>
+                    <span>deepsoltechnologies@gmail.com</span>
                   </div>
 
                   <div className="flex gap-4 mb-56">
@@ -151,7 +151,7 @@ export default function Contact() {
                     </svg>
                     <span>
 
-                      30 N gold Street Sherdon <br /> Wyoming, US
+                      Block C, Broadway Commercial Area, DHA Phase 8 Lahore
 
                     </span>
                   </div>
@@ -305,7 +305,7 @@ export default function Contact() {
                     <button
                       disabled={loading} // Disable the button when submitting
                       type="submit"
-                      className="group mb-10 md:mb-0 gap-2 rounded-md bg-[#1E1E1E] text-sm md:text-base px-8 md:px-12 py-2  md:py-3.5 text-white transition-colors hover:bg-red-600 z-10"
+                      className="group mb-10 z-auto md:mb-0 gap-2 rounded-md bg-[#1E1E1E] text-sm md:text-base px-8 md:px-12 py-2  md:py-3.5 text-white transition-colors hover:bg-red-600"
                     >
                       {loading ? "Sending..." : "Send Message"}{" "}
                       {/* Change button text */}

@@ -22,10 +22,7 @@ export default function WhyChoose() {
               Why choose us
             </h2>
             <p className="mb-8 text-base font-normal text-white/100">
-              Choose us for our unique blend of expertise, creativity, and
-              dedication. We understand your business goals and work tirelessly
-              to create tailored solutions that drive real results. With a focus
-              on innovation and attention to detail.
+              Choose us for our distinct mix of skill, innovation, and commitment. We align with your business goals and craft customized solutions that deliver real impact—always driven by creativity, precision, and a forward-thinking approach.
             </p>
             <Link
               to="/contact"

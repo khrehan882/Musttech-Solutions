@@ -14,7 +14,7 @@ export default function TrustedBrands() {
     "brand-r3",
     "brand-r4",
     "brand-r5",
-    "brand-r6", 
+    "brand-r6",
     "brand-r7",
   ];
 
@@ -32,10 +32,10 @@ export default function TrustedBrands() {
     "brand-r2.2",
     "brand-r2.3",
     "brand-r2.4",
-    "brand-r3", 
+    "brand-r3",
     "brand-r2.6",
     "brand-r2.7",
-    "brand-r2.8", 
+    "brand-r2.8",
   ];
 
   return (
@@ -46,11 +46,7 @@ export default function TrustedBrands() {
             Trusted by 200+ companies around the world
           </h2>
           <p className="text-[10px] sm:text-sm lg:text-base text-center md:text-start text-white/100 font-normal">
-            With over 200 companies worldwide placing their trust in us,
-            MustTech Solutions has become a global partner for innovation and
-            reliability. From custom software to cutting-edge web and mobile
-            solutions, we empower businesses with technology tailored to their
-            unique needs.
+            Trusted by over 200 companies globally, Deepsol Technologies stands as a reliable partner in innovation. We deliver tailored technology solutions—from custom software to advanced web and mobile applications—designed to meet each business’s unique needs.
           </p>
         </div>
 

@@ -8,7 +8,7 @@ const footerLinks = {
   company: [
     { name: "About us", href: "/about" },
     // { name: "Team", href: "#" },
-    { name: "Careers", href: "/careers" },
+    // { name: "Careers", href: "/careers" },
   ],
   services: [
     { name: "Branding", href: "/services/branding" },
@@ -56,20 +56,7 @@ const footerLinksRes = [
       { name: "CRO", href: "/services/cro" },
     ],
   },
-  {
-    heading: "Follow us",
-    links: [
-      {
-        name: "Instagram",
-        href: "https://www.instagram.com/musttechsolutions/",
-      },
-      { name: "Facebook", href: "https://www.facebook.com/musttechsolution" },
-      {
-        name: "LinkedIn",
-        href: "https://www.linkedin.com/company/musttechsolutions/posts/?feedView=all",
-      },
-    ],
-  },
+  
 ];
 
 export default function Footer() {
@@ -140,7 +127,7 @@ export default function Footer() {
             </div>
 
             {/* Social Links */}
-            <div className="lg:col-span-1">
+            {/* <div className="lg:col-span-1">
               <h3 className="mb-6 text-base font-bold text-white">Follow us</h3>
               <ul className="space-y-6">
                 {footerLinks.social.map((link) => (
@@ -156,7 +143,7 @@ export default function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Newsletter and Logo */}
             <div className="lg:col-span-2">

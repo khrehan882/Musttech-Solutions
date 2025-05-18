@@ -4,37 +4,37 @@ const services = [
   {
     icon: "logo1",
     title: "Branding",
-    description: "We shape identities that speak volumes, leaving impressions that stand the test of time.",
+    description: "We craft powerful brand identities that resonate deeply and leave lasting impressions that endure.",
     to:"/services/branding"
   },
   {
     icon: "logo2",
     title: "Web development",
-    description: "Forging digital landscapes where connections thrive and visions come to life.",
+    description: "We build dynamic digital spaces where meaningful connections flourish and bold visions turn into reality.",
     to:"/services/web-development"
   },
   {
     icon: "logo3",
     title: "Digital marketing",
-    description: "We craft strategies that make your brand unforgettable in the digital world.",
+    description: "We design impactful strategies that elevate your brand and leave a lasting mark in the digital space.",
     to:"/services/digital-marketing"
   },
   {
     icon: "logo4",
     title: "Mobile App",
-    description: "We build seamless mobile experiences that keep your users engaged, wherever they go.",
+    description: "We create smooth, intuitive mobile experiences that keep your users connected and engaged on the move.",
     to:"/services/mobile-app"
   },
   {
     icon: "logo5",
     title: "SEO",
-    description: "We optimize your online presence to ensure you stand out and rank high where it matters most.",
+    description: "We enhance your digital presence to help you stand out and achieve top rankings where it truly counts.",
     to:"/services/seo"
   },
   {
     icon: "logo6",
     title: "CRO services",
-    description: "We test and refine your user experience to ensure every interaction is seamless and intuitive.",
+    description: "We analyze and perfect your user experience to make every interaction smooth, intuitive, and user-friendly.",
     to:"/services/cro"
   },
 ];

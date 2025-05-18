@@ -18,7 +18,7 @@ const servicesData = {
     },
     content: {
       title: "Forging Digital Landscapes Where Connections Thrive and Visions Come to Life",
-      description: `At MustTech, we don’t just build websites—we craft digital experiences that leave a lasting impact. Whether you’re a startup looking to establish your online presence or a well-established business in need of a website revamp, our web development services are designed to elevate your brand and ensure a seamless user experience.`,
+      description: `At Deepsol, we don’t just build websites—we craft digital experiences that leave a lasting impact. Whether you’re a startup looking to establish your online presence or a well-established business in need of a website revamp, our web development services are designed to elevate your brand and ensure a seamless user experience.`,
     },
 
     content2: {
@@ -116,7 +116,7 @@ const servicesData = {
     },
     content: {
       title: "We Build Seamless Mobile Experiences That Keep Your Users Engaged, Wherever They Go",
-      description: `At MustTech, we specialize in crafting high-performance, feature-rich mobile applications that deliver exceptional user experiences. Whether you're a startup looking to launch your first app or an established business aiming to enhance customer engagement, our expert team develops tailored solutions that keep your users connected anytime, anywhere.`,
+      description: `At Deepsol, we specialize in crafting high-performance, feature-rich mobile applications that deliver exceptional user experiences. Whether you're a startup looking to launch your first app or an established business aiming to enhance customer engagement, our expert team develops tailored solutions that keep your users connected anytime, anywhere.`,
     },
 
     content2: {
@@ -213,7 +213,7 @@ const servicesData = {
     },
     content: {
       title: "We Shape Identities That Speak Volumes, Leaving Impressions That Stand the Test of Time",
-      description: `At MustTech, we believe that branding is more than just a logo or a color scheme—it’s the essence of your business. A powerful brand creates trust, communicates your vision, and sets you apart from the competition. Our branding services are designed to create a unique and compelling identity that resonates with your audience and stands the test of time.`,
+      description: `At Deepsol, we believe that branding is more than just a logo or a color scheme—it’s the essence of your business. A powerful brand creates trust, communicates your vision, and sets you apart from the competition. Our branding services are designed to create a unique and compelling identity that resonates with your audience and stands the test of time.`,
     },
 
     content2: {
@@ -309,7 +309,7 @@ const servicesData = {
     },
     content: {
       title: "We Craft Strategies That Make Your Brand Unforgettable in the Digital World",
-      description: `At MustTech, we don’t just market your business—we create digital experiences that connect with your audience and drive measurable results. In an ever-evolving digital landscape, our expert team develops data-driven strategies that elevate your brand, boost engagement, and maximize your ROI.`,
+      description: `At Deepsol, we don’t just market your business—we create digital experiences that connect with your audience and drive measurable results. In an ever-evolving digital landscape, our expert team develops data-driven strategies that elevate your brand, boost engagement, and maximize your ROI.`,
     },
     content2: {
       title: "Why Choose Our Digital Marketing Services?",
@@ -406,7 +406,7 @@ const servicesData = {
     },
     content: {
       title: "We Optimize Your Online Presence to Ensure You Stand Out and Rank High Where It Matters Most",
-      description: `At MustTech, we help businesses dominate search engine rankings and maximize online visibility. Our comprehensive SEO services ensure that your website attracts the right audience, drives organic traffic, and converts visitors into loyal customers. With a data-driven approach and proven strategies, we position your brand for long-term success in the digital landscape.`,
+      description: `At Deepsol, we help businesses dominate search engine rankings and maximize online visibility. Our comprehensive SEO services ensure that your website attracts the right audience, drives organic traffic, and converts visitors into loyal customers. With a data-driven approach and proven strategies, we position your brand for long-term success in the digital landscape.`,
     },
 
 
@@ -415,8 +415,8 @@ const servicesData = {
       description: `The digital market is highly competitive, and ranking on the first page of Google can make all the difference. We tailor our SEO strategies to your business goals, ensuring sustainable growth and measurable results. Whether you’re a startup or an established enterprise, our expert team is equipped to optimize your online presence effectively.`,
     },
     content3: {
-      title: "Get Ahead of the Competition with MustTech",
-      description: `SEO is not just about rankings—it’s about creating a powerful online presence that drives revenue. At MustTech, we focus on sustainable growth and measurable success, ensuring that your website stays ahead in search results.`,
+      title: "Get Ahead of the Competition with Deepsol",
+      description: `SEO is not just about rankings—it’s about creating a powerful online presence that drives revenue. At Deepsol, we focus on sustainable growth and measurable success, ensuring that your website stays ahead in search results.`,
     },
     heading: "Our SEO Services",
 
@@ -505,7 +505,7 @@ const servicesData = {
     },
     content: {
       title: "Turn More Visitors into Paying Customers",
-      description: `At MustTech, we don’t just drive traffic—we ensure that traffic converts! Our Conversion Rate Optimization (CRO) services are designed to maximize your website’s potential, turning casual visitors into engaged customers. Whether you're running an eCommerce store, a service-based website, or a SaaS platform, we use data-driven strategies to enhance user experience and increase your conversion rates.`,
+      description: `At Deepsol, we don’t just drive traffic—we ensure that traffic converts! Our Conversion Rate Optimization (CRO) services are designed to maximize your website’s potential, turning casual visitors into engaged customers. Whether you're running an eCommerce store, a service-based website, or a SaaS platform, we use data-driven strategies to enhance user experience and increase your conversion rates.`,
     },
 
 
@@ -514,8 +514,8 @@ const servicesData = {
       description: `Getting traffic to your website is just the first step. But are your visitors taking action? CRO ensures that your marketing efforts don’t go to waste by optimizing your website’s design, content, and functionality to drive more sales, sign-ups, and leads.`,
     },
     content3: {
-      title: "Get Ahead of the Competition with MustTech",
-      description: `SEO is not just about rankings—it’s about creating a powerful online presence that drives revenue. At MustTech, we focus on sustainable growth and measurable success, ensuring that your website stays ahead in search results.`,
+      title: "Get Ahead of the Competition with Deepsol",
+      description: `SEO is not just about rankings—it’s about creating a powerful online presence that drives revenue. At Deepsol, we focus on sustainable growth and measurable success, ensuring that your website stays ahead in search results.`,
     },
     heading: "Our CRO Services",
 
